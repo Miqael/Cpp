@@ -7,9 +7,26 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(void) {
+    double num1 = 0.0;
+    double num2 = 0.0;
+    double num3 = 0.0;
+    
+    double average;
+    
+    cout << "input 3 numbers " << endl ;
+    
+    cin >> num1 ;
+    cin >> num2 ;
+    cin >> num3 ;
+    
+    average = (num1 + num2 + num3)/3 ;
+    
+    cout << "average is " << average << endl ;
+    
+    system("pause");
+    
     return 0;
 }
