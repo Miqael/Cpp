@@ -29,5 +29,7 @@ int main(void) {
     
     system("pause");
     
+    cout << "yayay" <<endl ;
+    
     return 0;
 }
